@@ -21,9 +21,9 @@ export default function Home() {
 				This is the homepage!
 				{!loading1 && !loading2 && !loading3 && (
 					<>
-						{value1 && <div>valor1: {value1}</div>}
-						{value2 && <div>valor2: {value2}</div>}
-						{value3 && <div>valor3: {value3}</div>}
+						<div>valor1: {value1.toString()}</div>
+						<div>valor2: {value2.toString()}</div>
+						<div>valor3: {value3.toString()}</div>
 					</>
 				)}
 			</h1>
